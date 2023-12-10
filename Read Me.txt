@@ -1,0 +1,3 @@
+Visit http://localhost:8080 in your browser to see portfolio.
+You can customize the HTML, CSS, and routes as needed to showcase your skills and projects.
+Feel free to add more routes, create additional HTML pages, and enhance your portfolio based on your preferences.
