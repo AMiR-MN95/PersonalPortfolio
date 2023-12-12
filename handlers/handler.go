@@ -5,18 +5,18 @@ import (
 	"net/http"
 )
 
-// R is the exported Gin router
-var R *gin.Engine
+// Start is the exported Gin router
+var Start *gin.Engine
 
 func init() {
 	// Initialize the Gin router
-	R = gin.Default()
+	Start = gin.Default()
 
 	// Serve static files from the "static" directory
-	R.Static("/static", "./static")
+	Start.Static("/static", "./static")
 
 	// Set up HTML template rendering
-	R.LoadHTMLGlob("templates/*")
+	Start.LoadHTMLGlob("templates/*")
 
 	// Initialize routes
 	initRoutes()

@@ -6,5 +6,5 @@ import (
 
 func main() {
 	// Run the server
-	handlers.R.Run(":8080")
+	handlers.Start.Run(":8080")
 }
